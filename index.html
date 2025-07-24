@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rohan-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/assets/css/indexStyle.css" />
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body id="home">
+    <header>
+        <nav>
+            <div class="left">Rohan's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#certificate">Certificates</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, my name is <span class="purple">Rohan</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="https://github.com/Rohan3620" target="_blank">
+                        <button class="btn">Github</button>
+                    </a>
+                    <a href="assets/pdf/Rohan_Resume.pdf" download target="_blank">
+                        <button class="btn">Download Resume</button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="rightsection">
+                <img src="assets/images/2nd.png" alt="Rohan image">
+            </div>
+        </section>
+        <hr>
+
+        <section class="Secondsection">
+            <span class="grey">Explore My Coding Journey</span>
+            <h1>Coding Journey</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="assets/images/Devloper.png" alt="Developer icon" class="image-top">
+                    <div class="vertical-text">July 2024 - Dec 2024</div>
+                    <div class="vertical-desc">
+                        Took my first steps into the world of programming with <strong>C Language</strong>, mastering
+                        the fundamentals of logic and problem-solving.
+                        Alongside, I explored the creative side of tech — learning <strong>HTML, CSS, and
+                            JavaScript</strong> to build interactive web pages.
+                        Completed <em>2+ frontend projects</em> that boosted my confidence in web development.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img src="assets/images/Java.png" alt="Developer icon" class="image-top">
+                    <div class="vertical-text">Dec 2024 - June 2025</div>
+                    <div class="vertical-desc">
+                        Transitioned into backend and core development by diving into <strong>Java</strong> with a focus
+                        on <strong>Object-Oriented Programming (OOP)</strong>.
+                        Strengthened my data management knowledge through <strong>SQL</strong> and practiced <strong>DSA
+                            in C</strong> to improve my coding logic.
+                        This phase shaped my understanding of real-world software structures.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img src="assets/images/Python.png" alt="Developer icon" class="image-top">
+                    <div class="vertical-text">July 2025 - Present</div>
+                    <div class="vertical-desc">
+                        Currently upskilling in <strong>Python for data analysis</strong> — working with libraries like
+                        <code>pandas</code> and <code>matplotlib</code>.
+                        Created <em>2 Python-based projects</em> focused on data insights.
+                        Solving <strong>LeetCode DSA problems</strong> regularly and enrolled in a professional
+                        <strong>Data Analyst course</strong> to refine analytical thinking.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+    </main>
+
+    <section id="about" class="about-section">
+        <h1>About</h1>
+        <div class="about-content">
+            <div class="about-left">
+                <img src="assets/images/Aboutme.webp" alt="Rohan photo or illustration" />
+            </div>
+            <div class="about-right">
+                <p>Hello! I'm <strong>Rohan Mishra</strong>, a passionate programmer and aspiring <strong>Java + Data
+                        Analyst</strong> professional.</p>
+                <p>I began my coding journey in 2024 and have built skills in <strong>Frontend Web Development</strong>,
+                    <strong>OOP in Java</strong>, and am currently diving deep into <strong>Python for data
+                        analysis</strong>.
+                </p>
+                <p>Whether it's solving DSA problems on LeetCode or crafting clean, user-friendly websites — I love
+                    transforming ideas into digital reality. 💻</p>
+                <p>Beyond tech, I'm a curious learner, always exploring new ways to grow and create impact. 🌱</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="projects-section">
+        <h1>Projects</h1>
+        <div id="subheading">Explore My Coding Journey</div>
+        <div class="projects-container">
+
+            <div class="project-card">
+                <img src="assets/images/Project2.png" alt="Frontend Static Design" class="project-img"
+                    onclick="toggleDesc('desc2')">
+                <div class="project-desc" id="desc2">
+                    <h3>Frontend Static Design (HTML, CSS)</h3>
+                    <p>A clean and responsive static webpage layout featuring custom styling and visual sections.</p>
+                    <a href="https://github.com/Rohan3620/Front_design_Fewer" target="_blank">🔗 Source Code</a><br>
+                    <a href="https://rohan3620.github.io/Front_design_Fewer/" target="_blank">🌐 Live Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/images/Project4.png" alt="Carbon Footprint Calculator" class="project-img"
+                    onclick="toggleDesc('desc4')">
+                <div class="project-desc" id="desc4">
+                    <h3>Carbon Footprint Calculator (HTML, CSS, JavaScript)</h3>
+                    <p>Calculate your daily carbon footprint based on travel, electricity, and food usage.</p>
+                    <a href="https://github.com/Rohan3620/Carbon_Calculator" target="_blank">🔗 Source Code</a><br>
+                    <a href="https://rohan3620.github.io/Carbon_Calculator/" target="_blank">🌐 Live Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/images/Project1.png" alt="Static Website" class="project-img"
+                    onclick="toggleDesc('desc1')">
+                <div class="project-desc" id="desc1">
+                    <h3>Static Web Page</h3>
+                    <p>Designed a clean and responsive static web page using Flexbox and media queries.</p>
+                    <a href="https://github.com/Rohan3620/Front_Design" target="_blank">🔗 Source Code</a><br>
+                    <a href="https://rohan3620.github.io/Front_Design/" target="_blank">🌐 Live Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/images/Project3.png" alt="3D Calculator" class="project-img"
+                    onclick="toggleDesc('desc3')">
+                <div class="project-desc" id="desc3">
+                    <h3>3D Calculator (HTML, CSS, JavaScript)</h3>
+                    <p>A stylish 3D-themed calculator built with HTML, CSS, and JavaScript.</p>
+                    <a href="https://github.com/Rohan3620/Calculator" target="_blank">🔗 Source Code</a><br>
+                    <a href="https://rohan3620.github.io/Calculator/" target="_blank">🌐 Live Demo</a>
+                </div>
+            </div>
+
+               <div class="project-card">
+                <img src="assets/images/Project5.png" alt="Snake Game" class="project-img"
+                    onclick="toggleDesc('desc5')">
+                <div class="project-desc" id="desc5">
+                    <h3>Snake & Ice Gun Game (Python)</h3>
+                    <p>A classic snake game with a fun twist using Python’s <code>pygame</code>.</p>
+                    <a href="https://github.com/Rohan3620/Python/tree/main/Project1" target="_blank">🔗 Source Code</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="assets/images/Project6.png" alt="Railway Reservation System" class="project-img"
+                    onclick="toggleDesc('desc6')">
+                <div class="project-desc" id="desc6">
+                    <h3>Railway Reservation System (Python)</h3>
+                    <p>A terminal-based railway ticket booking system using file handling.</p>
+                    <a href="https://github.com/Rohan3620/Python/tree/main/Project2" target="_blank">🔗 Source Code</a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <section id="certificate" class="certificate-section">
+        <h1>Certificates</h1>
+        <div id="subheading">Explore My Certificates</div>
+        <div class="certificate-container">
+
+            <div class="certificate-card">
+                <img src="assets/images/TATA_DATA.png" alt="TATA Certificate" class="certificate-img"
+                    onclick="openModal(this)">
+            </div>
+
+            <div class="certificate-card">
+                <img src="assets/images/Data_any.png" alt="Data Analytics Certificate" class="certificate-img"
+                    onclick="openModal(this)">
+            </div>
+
+            <div class="certificate-card">
+                <img src="assets/images/HP.png" alt="HP Certificate" class="certificate-img" onclick="openModal(this)">
+            </div>
+        </div>
+    </section>
+
+
+    <div id="imageModal" class="modal"
+        style="display:none; position:fixed; z-index:999; left:0; top:0; width:100%; height:100%; overflow:auto; background-color:rgba(0,0,0,0.9);">
+        <span class="close" onclick="closeModal()"
+            style="position:absolute; top:20px; right:35px; color:#fff; font-size:40px; font-weight:bold; cursor:pointer">&times;</span>
+        <img class="modal-content" id="modalImage" style="margin:auto; display:block; max-width:90%; max-height:90%;">
+    </div>
+
+    <section id="contact" class="contact-section">
+        <h1>Contact Me</h1>
+        <div class="contact-container">
+            <div class="contact-card">
+                <div class="icon-circle">
+                    <i class="fas fa-map-signs"></i>
+                </div>
+                <h3>ADDRESS</h3>
+                <p>Noida, India</p>
+            </div>
+
+            <div class="contact-card">
+                <div class="icon-circle">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <h3>CONTACT NUMBER</h3>
+                <p>+91 93158 17167</p>
+            </div>
+
+            <div class="contact-card">
+                <div class="icon-circle">
+                    <i class="fas fa-paper-plane"></i>
+                </div>
+                <h3>EMAIL ADDRESS</h3>
+                <p>rohanmishra023@gmail.com</p>
+            </div>
+
+            <div class="contact-card">
+                <div class="icon-circle">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <h3>DOWNLOAD RESUME</h3>
+                <p><a href="assets/pdf/Rohan_Resume.pdf" target="_blank">Resume Link</a></p>
+            </div>
+        </div>
+        <div class="buttons">
+            <a href="https://github.com/Rohan3620" target="_blank">
+                <button class="btn">Github</button>
+            </a>
+            <a href="https://www.linkedin.com/in/rohan-mishra-757b33265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank">
+                <button class="btn">LinkedIn</button>
+            </a>
+            <a href="https://leetcode.com/u/Rohan3620/">
+                <button class="btn">LeetCode</button>
+            </a>
+            <a href="https://www.ipuranklist.com/student/05024402024">
+                <button class="btn">Rank</button>
+            </a>
+        </div>
+
+        <footer>
+            <div class="footer-top">
+                <a href="#Copyright">Copyright</a> / Privacy Policy / Terms and Conditions / Help /
+                <a href="#contact">Contact Us</a> / <a href="#about">About</a>
+            </div>
+            <div class="footer-middle">
+                <p>Made with ❤️ and ☕ by Rohan Mishra</p>
+            </div>
+
+            <div class="footer-lower">
+                <ul>
+                    <li>📧 <a href="mailto:rohanmishra023@gmail.com">rohanmishra023@gmail.com</a>
+
+                    </li>
+                    <li>📱 <a href="tel:+919315817167">+91 93158 17167</a></li>
+                    <li>🌍 Sec-62, Noida, India</li>
+                </ul>
+            </div>
+            <div class="footer-rights" id="Copyright">
+                © 2025 All Rights Reserved | Rohan Mishra
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+                strings: [
+                    'Frontend Developer',
+                    'Java Developer',
+                    'C Programmer',
+                    'Python Developer',
+                    'Data Analyst'
+                ],
+                typeSpeed: 50,
+            });
+        </script>
+        <script>
+            function toggleDesc(id) {
+                const box = document.getElementById(id);
+                box.style.display = (box.style.display === "block") ? "none" : "block";
+            }
+        </script>
+        <script>
+            function openModal(img) {
+                const modal = document.getElementById("imageModal");
+                const modalImg = document.getElementById("modalImage");
+                modal.style.display = "block";
+                modalImg.src = img.src;
+            }
+
+            function closeModal() {
+                document.getElementById("imageModal").style.display = "none";
+            }
+
+            window.onclick = function (event) {
+                const modal = document.getElementById("imageModal");
+                if (event.target === modal) {
+                    modal.style.display = "none";
+                }
+            };
+        </script>
+
+</body>
+
+</html>
