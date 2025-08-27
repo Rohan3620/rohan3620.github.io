@@ -26,6 +26,7 @@ a:hover {
     color: #00ffff;
 }
 
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -401,8 +402,8 @@ footer {
 }
 
 .certificate-card {
-    width: 300px;
-    height: 350px;
+    width: auto;
+    height: auto;
     background-color: #1f1f1f;
     padding: 15px;
     border-radius: 15px;
@@ -418,8 +419,8 @@ footer {
 }
 
 .certificate-img {
-    width: 273px;
-    height: 320px;
+    width: 400px;
+    height: 300px;
 
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(138, 43, 226, 0.7);
